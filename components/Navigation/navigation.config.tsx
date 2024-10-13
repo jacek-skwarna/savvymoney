@@ -1,7 +1,7 @@
 import { Fish, Bird, Rabbit, Rat } from "lucide-react";
 import { NavigationItemProps } from "./NavigationItem";
 
-export const navigationConfig: (NavigationItemProps & { id: string })[] = [
+export const navigationConfig: (Omit<NavigationItemProps, 'isActive'> & { id: string })[] = [
     {
         id: "fish-page-id",
         mobileDescription: "Fish",

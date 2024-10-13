@@ -19,13 +19,6 @@ export default function PageRat() {
 
                 <RatGridItem>3</RatGridItem>
             </div>
-
-            <div>dasdsa</div>
-            <div>dasdsa</div>
-            <div>dasdsa</div>
-            <div>dasdsa</div>
-            <div>dasdsa</div>
-            <div>dasdsa</div>
         </div>
     );
 }

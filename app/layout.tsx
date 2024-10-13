@@ -36,7 +36,7 @@ export default function RootLayout({
         <div className="flex flex-col items-center w-full h-dvh">
           <Navigation />
 
-          <main className="grow p-2 flex flex-col justify-center content-center items-center w-full">
+          <main className="grow p-2 flex flex-col justify-center content-center items-center w-full md:mt-20">
             <div className="w-full md:w-[36rem]">
               {children}
             </div>
